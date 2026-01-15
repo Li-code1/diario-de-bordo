@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de Bordo PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196F3">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Diário de Bordo</h1>
+        
+        <button id="install-button">📥 Instalar Aplicativo</button>
+
+        <form id="diario-form">
+            <input type="text" id="titulo" placeholder="Título da atividade" required>
+            <textarea id="descricao" placeholder="O que você fez hoje?" rows="4" required></textarea>
+            <button type="submit" id="btn-save">Salvar no Diário</button>
+        </form>
+
+        <div id="lista-entradas">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
