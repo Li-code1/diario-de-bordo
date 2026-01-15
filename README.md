@@ -22,7 +22,7 @@ Este é um **Aplicativo Web Progressivo (PWA)** desenvolvido para o registro de 
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/Li-code1/diario-de-bordo.git](https://github.com/Li-code1/diario-de-bordo.git)
+   git clone [https://github.com/Li-code1/diario-de-bordo.git]
 
 ```
 
